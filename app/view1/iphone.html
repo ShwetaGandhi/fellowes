@@ -1,0 +1,30 @@
+<div ng-click="openFilterModal()" class="resultsRefine font-size-14 font-normal">
+    <a class="btn btnRefine font-text-align-center font-textcolor-666666" id="refineButton"
+       style="display: block;">Refine</a>
+</div>
+<div ng-repeat ="items in productData">
+    <span >
+    {{items.DisplayName}}<br/>
+    <img ng-src="{{items.HeroShot.ThumbnailUrl}}" height="180" width="180"></img>
+    Price : {{items.CoreProperties.ExtendedPrice}}
+        <!-- button decision -->
+           <div ng-switch on="items.CoreProperties.InStock">
+
+               <div ng-switch-when="true">
+                   <button class="form-button orange primary " style="height: 40px !important;">
+                    <span class="button-inner" style=" margin-right: 52px; ">
+                    <span class="button-text">Add to Cart</span>
+                </span>
+                   </button>
+               </div>
+               <div ng-switch-when="false">
+                   <button class="wide-button" style="height: 40px !important;color:#666"  disabled="true">
+                            <span class="button-inner" style=" margin-right: 52px; ">
+                    <span class="button-text">Out Of Stock</span>
+                </span>
+                   </button>
+               </div>
+           </div>
+        <hr>
+    </span>
+</div>
