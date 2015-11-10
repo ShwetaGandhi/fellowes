@@ -11,15 +11,30 @@ angular.module('myApp.view1').controller('BodyCloveCtrl',
 
                 });
             $scope.openFilterModal = function(){
-                $rootScope.stopScroll=true;
-                $rootScope.dialogStatus = 'open';
 
                 $scope.opts = {
-                    templateUrl: "view1/bodyCloveFilter.html"
+
+                    animation: true,
+                    templateUrl: "view1/bodyCloveFilter.html",
+                    controller: "FilterCtrl",
+                    modalClass: "filter-modal"
+
                 }
 
                 $uibModal.open($scope.opts);
             }
+            //I am not implementing load more as my data is static . Back to top will help in jumping and then refining.
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#to-top').fadeIn();
+                } else {
+                    $('#to-top').fadeOut();
+                }
+            });
+
+            $('#to-top').click(function() {
+                $('body,html').animate({scrollTop:0},"fast");
+            });
         }
 
     ]

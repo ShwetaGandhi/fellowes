@@ -1,1 +1,13 @@
-model opened!
+<h3 class="modal-title">Find the right product for you</h3>
+<uib-accordion>
+<span id="filterRestId" ng-repeat="filter in filterData" class="accordions-gap" bindonce>
+     <uib-accordion-group is-open="accOpen.open">
+         <uib-accordion-heading>{{filter.kind}}</uib-accordion-heading>
+         <ul class="dynamic_filter_ul">
+             <li ng-repeat="fltr in filter.values">
+                 {{fltr.label}}{{fltr.count}}
+             </li>
+         </ul>
+     </uib-accordion-group>
+            </span>
+</uib-accordion>

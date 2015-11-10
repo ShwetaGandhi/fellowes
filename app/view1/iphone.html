@@ -1,30 +1,77 @@
-<div ng-click="openFilterModal()" class="resultsRefine font-size-14 font-normal">
-    <a class="btn btnRefine font-text-align-center font-textcolor-666666" id="refineButton"
-       style="display: block;">Refine</a>
-</div>
-<div ng-repeat ="items in productData">
-    <span >
-    {{items.DisplayName}}<br/>
-    <img ng-src="{{items.HeroShot.ThumbnailUrl}}" height="180" width="180"></img>
-    Price : {{items.CoreProperties.ExtendedPrice}}
-        <!-- button decision -->
-           <div ng-switch on="items.CoreProperties.InStock">
+<style>
+    #to-top {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 100px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        background: #adf707;
+        color: #333;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+    .resultsRefine{
+    font-size: 21px;
+    font-weight: 400;
+    white-space: nowrap;
+        display: inline-block;
+        width:17%;
+        float:right;
+        border:1px solid black;
+        padding-left: 8px;
+        margin-top: 4px;
+    }
+</style>
 
-               <div ng-switch-when="true">
-                   <button class="form-button orange primary " style="height: 40px !important;">
+<!-- header image -->
+<div>
+    <img src="http://assets.fellowes.com/images/misc/banner_iphone6.png" height=100px; width="100%">
+    </img>
+</div>
+
+<!-- header content -->
+<div style="width:100%;margin-bottom: 5%;margin-top: 5%;font-family:PTSans-semibold;">
+    <div style="display:inline-block;width:75%;font-size:32px;">iPhone 6/6s</div>
+    <div ng-click="openFilterModal()" class="resultsRefine"
+         style="">
+        <a id="refineButton">Refine</a>
+    </div>
+</div>
+
+    <!-- actual product Listing -->
+    <div ng-repeat="items in productData">
+        <div style="width:100%;font-family:PTSans-semibold;">
+            <div style="width:60%;display: inline-block;"><img ng-src="{{items.HeroShot.ThumbnailUrl}}" height="180"
+                                                               width="180"></img>
+            </div>
+            <!-- product data -->
+            <div style="display: inline-block;float:right;width:40%;">
+                <div>Price : ${{items.CoreProperties.ExtendedPrice}}</div>
+                <img ng-src="{{items.FeatureOptions[0].Icon.ThumbnailUrl}}"height="40"width="40">{{items.FeatureOptions[0].DisplayName}}</img>
+                <div>{{items.DisplayName}}</div>
+                <!-- button decision -->
+                <div ng-switch on="items.CoreProperties.InStock">
+
+                    <div ng-switch-when="true">
+                        <button class="form-button orange primary " style="height: 40px !important;background-color: #06bef0;">
                     <span class="button-inner" style=" margin-right: 52px; ">
                     <span class="button-text">Add to Cart</span>
                 </span>
-                   </button>
-               </div>
-               <div ng-switch-when="false">
-                   <button class="wide-button" style="height: 40px !important;color:#666"  disabled="true">
+                        </button>
+                    </div>
+                    <div ng-switch-when="false">
+                        <button class="wide-button" style="height: 40px !important;color:#661121" disabled="true">
                             <span class="button-inner" style=" margin-right: 52px; ">
                     <span class="button-text">Out Of Stock</span>
                 </span>
-                   </button>
-               </div>
-           </div>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         <hr>
-    </span>
-</div>
+    </div>
+    <div id="to-top">Back to Top</div>

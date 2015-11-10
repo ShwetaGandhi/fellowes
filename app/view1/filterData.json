@@ -1,0 +1,122 @@
+{
+  "filters": [
+    {
+      "kind": "Color",
+      "values": [
+        {
+          "label": "Black"
+        },
+        {
+          "label": "Brown"
+        },
+        {
+          "label": "pink"
+        },
+        {
+          "label": "majanda"
+        },
+        {
+          "label": "white"
+        },
+        {
+          "label": "yellow"
+        },
+        {
+          "label": "silver"
+        },
+        {
+          "label": "gray"
+        },
+        {
+          "label": "golden"
+        },
+        {
+          "label": "Blue"
+        }
+      ]
+    },
+    {
+      "kind": "Protection Features",
+      "values": [
+        {
+          "label": "Military drop test approved",
+          "count": 7
+        },
+        {
+          "label": "Full coverage w/Built-in screen protector",
+          "count": 7
+        },
+        {
+          "label": "Credit card storage",
+          "count": 7
+        },
+        {
+          "label": "Antimicrobial Protection",
+          "count": 6
+        },
+        {
+          "label": "Shock Resistant",
+          "count": 26
+        },
+        {
+          "label": " Scratch Resistan",
+          "count": 3
+        },
+        {
+          "label": "Textured Grip",
+          "count": 26
+        },
+        {
+          "label": "2 Layer Protection",
+          "count": 20
+        },
+        {
+          "label": "Durable Gel Material",
+          "count": 5
+        },
+        {
+          "label": "Slim Profile",
+          "count": 26
+        },
+        {
+          "label": "Covered Buttons",
+          "count": 10
+        },
+        {
+          "label": "Built-in Key Pocket",
+          "count": 3
+        },
+        {
+          "label": "Reflective Detailing",
+          "count": 3
+        },
+        {
+          "label": "Covered Ports",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "kind": "Case Type",
+      "values": [
+        {
+          "label": "Rugged",
+          "count": 8
+        },
+        {
+          "label": "Sport",
+          "count": 14
+        },
+        {
+          "label": "fashion",
+          "count": 7
+        },
+        {
+          "label": "slim",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "isZipCodeRequired": false
+}
