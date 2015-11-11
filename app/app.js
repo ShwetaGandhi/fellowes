@@ -9,13 +9,13 @@ angular.module('myApp', [
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
-      $routeProvider.when('/view1', {
+      $routeProvider.when('/:devicename', {
         templateUrl: 'view1/view1.html',
         controller: 'View1Ctrl'
       }),
-        $routeProvider.when('/bodyClove',{
+        $routeProvider.when('/bodyClove/iphone/cases',{
             templateUrl: 'view1/iphone.html',
                 controller: 'BodyCloveCtrl'
         });
-  $routeProvider.otherwise({redirectTo: '/view2'});
+  $routeProvider.otherwise({redirectTo: '/Apple'});
 }]);

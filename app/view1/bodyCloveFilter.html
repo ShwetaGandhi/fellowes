@@ -1,13 +1,39 @@
-<h3 class="modal-title">Find the right product for you</h3>
+<style>
+    .dynamic_filter_ul {
+        list-style: none;
+        font-size: 20px;
+        font-family: PTSans-semibold;
+    }
+    input[type=checkbox]
+    {
+        -webkit-transform: scale(2);
+        padding: 10px;
+    }
+    .checkboxtext
+    {
+        /* Checkbox text */
+        font-size: 110%;
+        display: inline;
+    }
+</style>
+<div class="modal-header">
+    <h3 class="modal-title">Find the right product for you</h3>
+</div>
+<div class="modal-body">
 <uib-accordion>
-<span id="filterRestId" ng-repeat="filter in filterData" class="accordions-gap" bindonce>
-     <uib-accordion-group is-open="accOpen.open">
+
+     <uib-accordion-group  ng-repeat="filter in filterData" data-toggle="collapse" bindonce>
          <uib-accordion-heading>{{filter.kind}}</uib-accordion-heading>
          <ul class="dynamic_filter_ul">
              <li ng-repeat="fltr in filter.values">
-                 {{fltr.label}}{{fltr.count}}
+                 <input type="checkbox"class="checkboxtext"> {{fltr.label}}<span> ({{fltr.count}})</span>
              </li>
          </ul>
      </uib-accordion-group>
-            </span>
+
 </uib-accordion>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="submitFilter()">Save Changes</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

@@ -3,8 +3,8 @@
  */
 angular.module('myApp.view1').controller('BodyCloveCtrl',
     [
-        '$scope', '$rootScope' ,'$http','$uibModal',
-        function ($scope, $rootScope, $http,$uibModal){
+        '$scope', '$rootScope' ,'$http','$uibModal','$timeout',
+        function ($scope, $rootScope, $http,$uibModal,$timeout){
             $http.get('view1/product.json')
                 .then(function(res){
                     $scope.productData = res.data.d.Object;
@@ -17,7 +17,8 @@ angular.module('myApp.view1').controller('BodyCloveCtrl',
                     animation: true,
                     templateUrl: "view1/bodyCloveFilter.html",
                     controller: "FilterCtrl",
-                    modalClass: "filter-modal"
+                    backdrop:true,
+                    backdropClick:true
 
                 }
 
@@ -35,6 +36,13 @@ angular.module('myApp.view1').controller('BodyCloveCtrl',
             $('#to-top').click(function() {
                 $('body,html').animate({scrollTop:0},"fast");
             });
+            //on click of add to cart msg is displayed and disappeared
+            $scope.display = function() {
+                $scope.alertDisplayed = true;
+                $timeout(function() {
+                    $scope.alertDisplayed = false;
+                }, 2000)
+            };
         }
 
     ]
