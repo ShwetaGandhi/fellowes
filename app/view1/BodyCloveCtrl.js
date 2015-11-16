@@ -24,6 +24,21 @@ angular.module('myApp.view1').controller('BodyCloveCtrl',
 
                 $uibModal.open($scope.opts);
             }
+            //view product detail in pop up.
+            $scope.viewDetailModal = function(){
+
+                $scope.opts = {
+
+                    animation: true,
+                    templateUrl: "view1/productDetail.html",
+                    controller: "productCtrl",
+                    backdrop:true,
+                    backdropClick:true
+
+                }
+
+                $uibModal.open($scope.opts);
+            }
             //I am not implementing load more as my data is static . Back to top will help in jumping and then refining.
             $(window).scroll(function() {
                 if($(this).scrollTop() != 0) {

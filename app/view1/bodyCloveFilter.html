@@ -25,7 +25,10 @@
      <uib-accordion-group  ng-repeat="filter in filterData" data-toggle="collapse" bindonce>
          <uib-accordion-heading>{{filter.kind}}</uib-accordion-heading>
          <ul class="dynamic_filter_ul">
-             <li ng-repeat="fltr in filter.values">
+             <!-- adding search option for long listing-->
+             <input ng-model="searchText" placeholder="Search...">
+             <li ng-repeat="fltr in filter.values| filter:searchText">
+
                  <input type="checkbox"class="checkboxtext"> {{fltr.label}}<span> ({{fltr.count}})</span>
              </li>
          </ul>

@@ -1,0 +1,443 @@
+{
+  "d": {
+    "Object": [
+      {
+        "__type": "Fellowes.Catalog.Proxies.Data.Catalog.ProductDto",
+        "DisplayOnWebsite": true,
+        "Discontinued": false,
+        "ItemCurrency": "USD",
+        "Weight": 10,
+        "HeroShot": {
+          "FileName": "hero-ShockSuit_1.png",
+          "Description": "hero-ShockSuit_1.png",
+          "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/hero-ShockSuit_1.png"
+        },
+        "CoreProperties": {
+          "MsrpPrice": 39.99,
+          "DiscountedPrice": 0,
+          "ExtendedPrice": 39.99,
+          "Shippable": 0,
+          "InStock": true,
+          "Sellable": true,
+          "ReviewsRating": 0,
+          "ReviewsImage": "",
+          "ReviewsPercentage": 0,
+          "ReviewsRecommendedCount": 0,
+          "ReviewsTotalCount": 0,
+          "AvailableToSell": true
+        },
+        "AdditionalImage": [
+          {
+            "FileName": "720580_ShockSuit_iPhone_6_Back_Black-Charcoal.png",
+            "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Back_Black-Charcoal.png",
+            "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Back_Black-Charcoal.png"
+          },
+          {
+            "FileName": "720580_ShockSuit_iPhone_6_Front_Black-Charcoal.png",
+            "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Front_Black-Charcoal.png",
+            "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Front_Black-Charcoal.png"
+          },
+          {
+            "FileName": "720580_ShockSuit_iPhone_6_Empty_Front_Black-Charcoal.png",
+            "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Empty_Front_Black-Charcoal.png",
+            "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Empty_Front_Black-Charcoal.png"
+          },
+          {
+            "FileName": "720580_ShockSuit_iPhone_6_Angle_Black-Charcoal.png",
+            "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Angle_Black-Charcoal.png",
+            "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Angle_Black-Charcoal.png"
+          },
+          {
+            "FileName": "720580_ShockSuit_iPhone_6_Side_Black-Charcoal.png",
+            "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Side_Black-Charcoal.png",
+            "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Side_Black-Charcoal.png"
+          }
+        ],
+        "DefinitionName": "Mobile Cases",
+        "CatalogName": "Body Glove Mobile - US",
+        "CompanyId": "US",
+        "PrimaryParentCategoryName": "IPHONE_6_6S",
+        "Properties": [
+          {
+            "Value": {
+              "en-US": [
+                {
+                  "FileName": "720580_ShockSuit_iPhone_6_Back_Black-Charcoal.png",
+                  "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Back_Black-Charcoal.png",
+                  "TotalPages": 1,
+                  "HasPreview": true,
+                  "PreviewUrl": "http://assets.fellowes.com/images/products/large/720580_ShockSuit_iPhone_6_Back_Black-Charcoal.png",
+                  "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Back_Black-Charcoal.png",
+                  "OriginalUrl": "http://assets.fellowes.com/images/products/zoom/720580_ShockSuit_iPhone_6_Back_Black-Charcoal.png"
+                },
+                {
+                  "FileName": "720580_ShockSuit_iPhone_6_Front_Black-Charcoal.png",
+                  "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Front_Black-Charcoal.png",
+                  "TotalPages": 1,
+                  "HasPreview": true,
+                  "PreviewUrl": "http://assets.fellowes.com/images/products/large/720580_ShockSuit_iPhone_6_Front_Black-Charcoal.png",
+                  "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Front_Black-Charcoal.png",
+                  "OriginalUrl": "http://assets.fellowes.com/images/products/zoom/720580_ShockSuit_iPhone_6_Front_Black-Charcoal.png"
+                },
+                {
+                  "FileName": "720580_ShockSuit_iPhone_6_Empty_Front_Black-Charcoal.png",
+                  "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Empty_Front_Black-Charcoal.png",
+                  "TotalPages": 1,
+                  "HasPreview": true,
+                  "PreviewUrl": "http://assets.fellowes.com/images/products/large/720580_ShockSuit_iPhone_6_Empty_Front_Black-Charcoal.png",
+                  "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Empty_Front_Black-Charcoal.png",
+                  "OriginalUrl": "http://assets.fellowes.com/images/products/zoom/720580_ShockSuit_iPhone_6_Empty_Front_Black-Charcoal.png"
+                },
+                {
+                  "FileName": "720580_ShockSuit_iPhone_6_Angle_Black-Charcoal.png",
+                  "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Angle_Black-Charcoal.png",
+                  "TotalPages": 1,
+                  "HasPreview": true,
+                  "PreviewUrl": "http://assets.fellowes.com/images/products/large/720580_ShockSuit_iPhone_6_Angle_Black-Charcoal.png",
+                  "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Angle_Black-Charcoal.png",
+                  "OriginalUrl": "http://assets.fellowes.com/images/products/zoom/720580_ShockSuit_iPhone_6_Angle_Black-Charcoal.png"
+                },
+                {
+                  "FileName": "720580_ShockSuit_iPhone_6_Side_Black-Charcoal.png",
+                  "Description": "ShockSuit iPhone 6/6s Black/Charcoal__720580_ShockSuit_iPhone_6_Side_Black-Charcoal.png",
+                  "TotalPages": 1,
+                  "HasPreview": true,
+                  "PreviewUrl": "http://assets.fellowes.com/images/products/large/720580_ShockSuit_iPhone_6_Side_Black-Charcoal.png",
+                  "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/720580_ShockSuit_iPhone_6_Side_Black-Charcoal.png",
+                  "OriginalUrl": "http://assets.fellowes.com/images/products/zoom/720580_ShockSuit_iPhone_6_Side_Black-Charcoal.png"
+                }
+              ]
+            },
+            "PropertyName": "AdditionalImage"
+          },
+          {
+            "Value": {
+              "en-US": "<P><SPAN>ShockSuit iPhone 6 phone cases feature a slim design that withstands the roughest conditions. Constructed of 3 layers, a built-in screen protector, and covered buttons and ports, this case meets military drop test standards. </SPAN></P><UL><LI><SPAN> 3-Layer Protection</SPAN></LI><LI><SPAN> Military Grade Drop Protection</SPAN></LI><LI><SPAN> Full Coverage</SPAN></LI><LI><SPAN> Built-in Screen Protector</SPAN></LI><LI><SPAN> Covered Buttons and Ports</SPAN></LI><LI><SPAN> Enhanced Grip</SPAN></LI><LI><SPAN> Slim Profile</SPAN></LI><LI><SPAN> 1-Year Limited Warranty</SPAN></LI></UL>"
+            },
+            "PropertyName": "ApprovedWebBulletedCopy"
+          },
+          {
+            "Value": {
+              "en-US": "Black/Charcoal"
+            },
+            "PropertyName": "Color"
+          },
+          {
+            "Value": "US",
+            "PropertyName": "CompanyId"
+          },
+          {
+            "Value": "721065",
+            "PropertyName": "ConsumerReferenceCode"
+          },
+          {
+            "Value": "CHINA",
+            "PropertyName": "CountryOfOrigin"
+          },
+          {
+            "Value": "11/30/2016 12:00:00 AM",
+            "PropertyName": "DiscontinuedDate"
+          },
+          {
+            "Value": 1,
+            "PropertyName": "DisplayOnWebsite"
+          },
+          {
+            "Value": ";;",
+            "PropertyName": "EanUpcScsCode"
+          },
+          {
+            "Value": {
+              "en-US": [
+                {
+                  "FileName": "hero-ShockSuit_1.png",
+                  "Description": "hero-ShockSuit_1.png",
+                  "TotalPages": 1,
+                  "HasPreview": true,
+                  "PreviewUrl": "http://assets.fellowes.com/images/products/large/hero-ShockSuit_1.png",
+                  "ThumbnailUrl": "http://assets.fellowes.com/images/products/thumbnail/hero-ShockSuit_1.png",
+                  "OriginalUrl": "http://assets.fellowes.com/images/products/zoom/hero-ShockSuit_1.png"
+                }
+              ]
+            },
+            "PropertyName": "HeroShot"
+          },
+          {
+            "Value": {
+              "en-US": [
+                {
+                  "FileName": "icons-Color-Duo-Blk.png",
+                  "Description": "icons-Color-Duo-Blk.png",
+                  "TotalPages": 1,
+                  "HasPreview": true,
+                  "PreviewUrl": "",
+                  "ThumbnailUrl": "",
+                  "OriginalUrl": "http://assets.fellowes.com/images/icons/large/icons-Color-Duo-Blk.png"
+                }
+              ]
+            },
+            "PropertyName": "Swatches"
+          },
+          {
+            "Value": 1,
+            "PropertyName": "InStock"
+          },
+          {
+            "Value": "0.00 x 0.00 x 0.00",
+            "PropertyName": "ItemDimensionsInches"
+          },
+          {
+            "Value": "0.00 x 0.00 x 0.00",
+            "PropertyName": "ItemDimensionsMM"
+          },
+          {
+            "Value": "721065",
+            "PropertyName": "ItemId"
+          },
+          {
+            "Value": "Active",
+            "PropertyName": "ItemStatus"
+          },
+          {
+            "Value": "RM",
+            "PropertyName": "ItemType"
+          },
+          {
+            "Value": "0.05",
+            "PropertyName": "ItemWeightKG"
+          },
+          {
+            "Value": "0.12",
+            "PropertyName": "ItemWeightLbs"
+          },
+          {
+            "Value": "0.00 x 0.00 x 0.00",
+            "PropertyName": "MasterCartonDimensionsInches"
+          },
+          {
+            "Value": "0.00 x 0.00 x 0.00",
+            "PropertyName": "MasterCartonDimensionsMM"
+          },
+          {
+            "Value": "0.00",
+            "PropertyName": "MasterCartonWeightKG"
+          },
+          {
+            "Value": "0.00",
+            "PropertyName": "MasterCartonWeightLBS"
+          },
+          {
+            "Value": "10/13/2015 9:00:00 AM",
+            "PropertyName": "ModifiedDate"
+          },
+          {
+            "Value": 39.99,
+            "PropertyName": "MSRP"
+          },
+          {
+            "Value": 0,
+            "PropertyName": "OnSale"
+          },
+          {
+            "Value": "BULK PHONE CASE 94587 IPHONE 6/6S SHOCKSUIT BLACK/CHARCOAL",
+            "PropertyName": "OracleDescription"
+          },
+          {
+            "Value": "0.00 x 0.00 x 0.00",
+            "PropertyName": "PalletDimensions"
+          },
+          {
+            "Value": "BQCRA",
+            "PropertyName": "ProductLine"
+          },
+          {
+            "Value": 2,
+            "PropertyName": "ProductRank"
+          },
+          {
+            "Value": "0.00",
+            "PropertyName": "RetailPackCubeFT"
+          },
+          {
+            "Value": "0.00 x 0.00 x 0.00",
+            "PropertyName": "RetailPackDimensionsInches"
+          },
+          {
+            "Value": "0.00 x 0.00 x 0.00",
+            "PropertyName": "RetailPackDimensionsMM"
+          },
+          {
+            "Value": "0.00",
+            "PropertyName": "RetailPackWeightKG"
+          },
+          {
+            "Value": 1,
+            "PropertyName": "Sellable"
+          },
+          {
+            "Value": "0.12",
+            "PropertyName": "ShipmentWeightLBS"
+          },
+          {
+            "Value": {
+              "en-US": "<P><SPAN>The Military Duty ShockSuit phone case provides the best protection for your iPhone 6. Suit Up with Body Glove.</SPAN></P>"
+            },
+            "PropertyName": "ShortDescription"
+          },
+          {
+            "Value": {
+              "en-US": "<P><SPAN>Protect your Apple iPhone 6 investment with the ultra rugged and shockingly thin ShockSuit from Body Glove Mobile. If you drop your phone a lot, this case has your iPhone&amp;rsquo;s back with durable, shock-resistant materials and design. The Rugged Series ShockSuit iPhone 6 phone cases are Military-Duty cases designed to handle almost anything. The ShockSuit case is built to withstand the roughest of conditions. If it can meet military standards, we are sure it will handle anything you will ever put it through in daily life.</SPAN></P><P></P><P><SPAN>The exterior of the Rugged Series ShockSuit case is composed of a hard shell, which takes the scratches and scuffs that your iPhone 6 would normally pick up in the course of daily life without a cell phone case. Underneath, your phone remains as unblemished as the day you bought it. ShockSuit&amp;rsquo;s built-in screen protector shields your iPhone from screen scratches and cracks. This full-coverage case is ideal for all-over protection and it shields your iPhone&amp;rsquo;s buttons and ports without blocking your camera.</SPAN></P><P></P><P><SPAN>The tactile outer layer of the ShockSuit ensures a no-slip grip. With a firm hold on your iPhone 6, you will drop it less decreasing the possibility of damage. In this way, the Body Glove Mobile&amp;rsquo;s ShockSuit case takes both a proactive and preemptive approach to the protection of your iPhone 6.</SPAN></P><P></P><P><SPAN>The most innovative aspect of the ShockSuit case is it&amp;rsquo;s super-slim profile. Why add unnecessary bulk to the sleek iPhone 6? With the Rugged Series ShockSuit, there&amp;rsquo;s no need. This case brings you high-level, Military-Duty protection in a slim package. Ultra rugged and shockingly thin: that&amp;rsquo;s the Body Glove Mobile ShockSuit for the Apple iPhone 6.</SPAN></P>"
+            },
+            "PropertyName": "ShortParagraph"
+          },
+          {
+            "Value": [
+              "Smartphone"
+            ],
+            "PropertyName": "DeviceType"
+          },
+          {
+            "Value": [
+              "Apple"
+            ],
+            "PropertyName": "DeviceManufacturer"
+          },
+          {
+            "Value": [
+              "iPhone6"
+            ],
+            "PropertyName": "DeviceModel"
+          },
+          {
+            "Value": [
+              "Rugged"
+            ],
+            "PropertyName": "CaseTypes"
+          },
+          {
+            "Value": [
+              "ShockSuit"
+            ],
+            "PropertyName": "CaseStyle"
+          },
+          {
+            "Value": [
+              "MilitaryDropTestApproved",
+              "FullCoverageBuiltinScreenProtection",
+              "ShockResistant",
+              "TexturedGrip",
+              "SlimProfile",
+              "CoveredButtons",
+              "CoveredPorts"
+            ],
+            "PropertyName": "ProtectionFeatures"
+          },
+          {
+            "Value": [
+              "Cases"
+            ],
+            "PropertyName": "ProductType_PhoneCases"
+          },
+          {
+            "Value": [
+              "Black",
+              "Charcoal"
+            ],
+            "PropertyName": "Color_BG"
+          }
+        ],
+        "CatalogItemId": "US-721065",
+        "RelatedContext": null,
+        "DisplayName": "ShockSuit iPhone 6/6s Black/Charcoal",
+        "ShortDescription": "<P><SPAN>The Military Duty ShockSuit phone case provides the best protection for your iPhone 6. Suit Up with Body Glove.</SPAN></P>",
+        "RelatedItems": null,
+        "FeatureOptions": [
+          {
+            "Icon": {
+              "FileName": "icons-feature-Mil.png",
+              "Description": "icons-feature-Mil.png",
+              "ThumbnailUrl": "http://assets.fellowes.com/images/icons/large/icons-feature-Mil.png"
+            },
+            "Language": "en-US",
+            "DisplayName": "Military Drop Test Approved",
+            "Url": "",
+            "Description": "Drop tested to meet MIL-STD-810G--handles drops up to 6 feet"
+          },
+          {
+            "Icon": {
+              "FileName": "Full_Coverage_Protection_Icon.png",
+              "Description": "Full_Coverage_Protection_Icon.png",
+              "ThumbnailUrl": "http://assets.fellowes.com/images/icons/large/Full_Coverage_Protection_Icon.png"
+            },
+            "Language": "en-US",
+            "DisplayName": "Full Coverage w/Built-in Screen Protector",
+            "Url": "",
+            "Description": "Protection for the entire device, including a built-in screen protector to secure against cracks, shatters, or scratches"
+          },
+          {
+            "Icon": {
+              "FileName": "Shock_Resistant.png",
+              "Description": "Shock_Resistant.png",
+              "ThumbnailUrl": "http://assets.fellowes.com/images/icons/large/Shock_Resistant.png"
+            },
+            "Language": "en-US",
+            "DisplayName": "Shock Resistant",
+            "Url": "",
+            "Description": "Constructed to absorb impact from every day activities"
+          },
+          {
+            "Icon": {
+              "FileName": "Textured_Edges_Grip_Icon.png",
+              "Description": "Textured_Edges_Grip_Icon.png",
+              "ThumbnailUrl": "http://assets.fellowes.com/images/icons/large/Textured_Edges_Grip_Icon.png"
+            },
+            "Language": "en-US",
+            "DisplayName": "Textured Grip",
+            "Url": "",
+            "Description": "Ensures a more secure grip on your phone and less chance of dropping"
+          },
+          {
+            "Icon": {
+              "FileName": "Slim_Profile_Icon.png",
+              "Description": "Slim_Profile_Icon.png",
+              "ThumbnailUrl": "http://assets.fellowes.com/images/icons/large/Slim_Profile_Icon.png"
+            },
+            "Language": "en-US",
+            "DisplayName": "Slim Profile",
+            "Url": "",
+            "Description": "Design allows phone to be easily slid into a pocket or purse without sacrificing drop protection"
+          },
+          {
+            "Icon": {
+              "FileName": "Covered_Buttons_1_Icon.png",
+              "Description": "Covered_Buttons_1_Icon.png",
+              "ThumbnailUrl": "http://assets.fellowes.com/images/icons/large/Covered_Buttons_1_Icon.png"
+            },
+            "Language": "en-US",
+            "DisplayName": "Covered Buttons",
+            "Url": "",
+            "Description": "Protects buttons from outside dust and dirt"
+          },
+          {
+            "Icon": {
+              "FileName": "Port_Coverings.png",
+              "Description": "Port_Coverings.png",
+              "ThumbnailUrl": "http://assets.fellowes.com/images/icons/large/Port_Coverings.png"
+            },
+            "Language": "en-US",
+            "DisplayName": "Covered Ports",
+            "Url": "",
+            "Description": "Protects device ports from outside dust and dirt"
+          }
+        ],
+        "ParentCategoryNames": [
+          "IPHONE_6_6S"
+        ]
+      }
+    ],
+    "IsSuccess": true,
+    "ResultCode": 0,
+    "Messages": {},
+    "Message": null
+  }
+}
